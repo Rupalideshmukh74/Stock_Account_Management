@@ -7,6 +7,8 @@ namespace Stock_account_management
         static void Main(string[] args)
         {
             Console.WriteLine("welcome to Stock account management program!");
+            // Calling class StockAccountManager
+            StockAccountManager stockAccountManager = new StockAccountManager();
         }
     }
-}
+   }
